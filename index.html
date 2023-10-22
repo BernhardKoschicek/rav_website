@@ -1,25 +1,16 @@
 ﻿<!DOCTYPE html>
-<!--[if lt IE 7]>
-<html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
-<!--[if IE 7]>
-<html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
-<!--[if IE 8]>
-<html class="no-js lt-ie9" lang=""> <![endif]-->
-<!--[if gt IE 8]><!--> <!--<![endif]-->
 
-<html class="no-js" lang="">
+<html lang="de">
 <head>
   <meta charset="UTF-8"/>
-  <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
   <meta content="de-at" http-equiv="Content-Language"/>
   <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-  <meta name="description" content="Rittersporn"/>
+  <meta name="description" content="Reenactment Verein Rittersporn - Arma Victusque"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
   <title>Rittersporn - Arma Victusque</title>
 
   <link rel="shortcut icon" href="images/01_icons/favicon-32x32.png" type="image/x-icon"/>
-  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Muli"/>
 
   <!-- Include Main Css -->
   <link rel="stylesheet" href="assets/css/main.css"/>
@@ -31,6 +22,8 @@
   <link rel="stylesheet" href="assets/css/responsive.css"/>
   <!-- Include PopUp Css -->
   <link rel="stylesheet" href="assets/css/popup.css"/>
+  <!-- Include bxslider Css -->
+  <link rel="stylesheet" href="assets/css/jquery.bxslider.css"/>
 
   <!-- Include Modernizer Js -->
   <script src="assets/js/modernizr-2.8.3-respond-1.4.2.min.js"></script>
@@ -123,12 +116,12 @@
                     <li>Wir <b>präsentieren</b> ...</li>
                   </ul>
                   <div class="item-title">die späte LaTène-Zeit</div>
-                  <ul class="item-description">
+                  <div class="item-description">
                     Wir sind in der späten Eisenzeit bei den Kelten, auch Gallier genannt.
                     Genau! Asterix und Obelix! Nur orientieren <b>WIR</b> uns an überwiegend
                     regionalen Funden &amp; archäologischen Erkenntnissen - schauen aber auch über den Tellerrand.
                     Nein! Schild &amp; Schwert machen noch keinen Ritter - das kommt später!
-                  </ul>
+                  </div>
                 </div>
 
                 <div class="flip-back-1">
@@ -158,12 +151,12 @@
                     <li>Wir <b>präsentieren</b> ...</li>
                   </ul>
                   <div class="item-title">die Zeit der Kreuzzüge</div>
-                  <ul class="item-description">
+                  <div class="item-description">
                     Ja! Jetzt sind wir bei den Rittern! Der Höhepunkt ritterlichen Denkens,
                     ihrer Machtentfaltung &amp; höfischer Kultur. Und jetzt kommt die große Enttäuschung - noch keine
                     Plattenrüstung; nur Kettenhemden und so Zeug. Sucht ihr "Dosen", müsst ihr noch ca.
                     200 Jahre warten. Doch auch da gibt es eine böse Überraschung.
-                  </ul>
+                  </div>
                 </div>
 
                 <div class="flip-back-2">
@@ -193,12 +186,12 @@
                     <li>Wir <b>präsentieren</b> ...</li>
                   </ul>
                   <div class="item-title">das späte Mittelalter</div>
-                  <ul class="item-description">
+                  <div class="item-description">
                     Ha! Endlich Plattenrüstungen - doch da stecken bloß Bürgerliche oder Söldner drinnen!
                     Nichts als Probleme in dieser Zeit: erst religiöse Fanatiker aus Böhmen,
                     dann zerfleischen sich unsere Adeligen gegenseitig und zum Schluss noch die Ungarn in Wien!
                     Und die Infanterie reißt die Macht an sich. Wo soll das noch hinführen!
-                  </ul>
+                  </div>
                 </div>
 
                 <div class="flip-back-3">
@@ -778,7 +771,7 @@
             <div class="widget-details">
               <u><b>Verein Rittersporn</b></u
               ><br/>
-              arma victusque
+              Arma Victusque
               <br/>
               <br/>
               ZVR-Zahl: 578269287<br/>
@@ -973,7 +966,7 @@
                     }
                 });
         },
-    }).done(function (res) {
+    }).done(function () {
         $(".bxslider").bxSlider({
             auto: 1,
             preloadImages: "all",
@@ -1085,7 +1078,7 @@
         });
 </script>
 
-<!-- Textfelder im Emailformular lÃ¶schen -->
+<!-- Textfelder im Emailformular löschen -->
 <!--<script type="text/javascript">
   function clearFields() {
     document.getElementById("contactform").reset();
